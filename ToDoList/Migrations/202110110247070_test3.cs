@@ -3,16 +3,16 @@ namespace ToDoList.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class testfail3 : DbMigration
+    public partial class test3 : DbMigration
     {
         public override void Up()
         {
-            DropColumn("dbo.ToDoes", "IssueDate");
+            AddColumn("dbo.ToDoes", "DateTime", c => c.String());
         }
         
         public override void Down()
         {
-            AddColumn("dbo.ToDoes", "IssueDate", c => c.DateTime(nullable: false));
+            DropColumn("dbo.ToDoes", "DateTime");
         }
     }
 }

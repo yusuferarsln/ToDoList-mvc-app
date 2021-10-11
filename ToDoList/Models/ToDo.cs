@@ -12,6 +12,7 @@ namespace ToDoList.Models
         public string Description { get; set; }
         public bool IsDone { get; set; }
         public virtual ApplicationUser User { get; set; }
+        public string DateTime { get; set; }
 
     }
 }
