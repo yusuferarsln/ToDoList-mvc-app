@@ -178,6 +178,30 @@
     <Compile Include="Migrations\202110081512496_ToDo1.Designer.cs">
       <DependentUpon>202110081512496_ToDo1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110101553023_datetime.cs" />
+    <Compile Include="Migrations\202110101553023_datetime.Designer.cs">
+      <DependentUpon>202110101553023_datetime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110101611097_new-date.cs" />
+    <Compile Include="Migrations\202110101611097_new-date.Designer.cs">
+      <DependentUpon>202110101611097_new-date.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110101612300_regdate.cs" />
+    <Compile Include="Migrations\202110101612300_regdate.Designer.cs">
+      <DependentUpon>202110101612300_regdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110110115536_datetimetestfail.cs" />
+    <Compile Include="Migrations\202110110115536_datetimetestfail.Designer.cs">
+      <DependentUpon>202110110115536_datetimetestfail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110110130130_datetimetest.cs" />
+    <Compile Include="Migrations\202110110130130_datetimetest.Designer.cs">
+      <DependentUpon>202110110130130_datetimetest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110110143385_testfail3.cs" />
+    <Compile Include="Migrations\202110110143385_testfail3.Designer.cs">
+      <DependentUpon>202110110143385_testfail3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -272,6 +296,24 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202110081512496_ToDo1.resx">
       <DependentUpon>202110081512496_ToDo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110101553023_datetime.resx">
+      <DependentUpon>202110101553023_datetime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110101611097_new-date.resx">
+      <DependentUpon>202110101611097_new-date.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110101612300_regdate.resx">
+      <DependentUpon>202110101612300_regdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110110115536_datetimetestfail.resx">
+      <DependentUpon>202110110115536_datetimetestfail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110110130130_datetimetest.resx">
+      <DependentUpon>202110110130130_datetimetest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110110143385_testfail3.resx">
+      <DependentUpon>202110110143385_testfail3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

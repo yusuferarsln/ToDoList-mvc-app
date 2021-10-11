@@ -93,7 +93,7 @@ namespace ToDoList.Controllers
         // AJAX CREATE PARTIAL VIEW IÇIN
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult AjaxCreate([Bind(Include = "Id,Description")] ToDo toDo)
+        public ActionResult AjaxCreate([Bind(Include = "Id,Description,IssueDate")] ToDo toDo)
         {
             if (ModelState.IsValid)
             {
